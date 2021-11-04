@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MoviesRoutingModule } from './movies-routing.module';
-import { MoviesListComponent } from './components/movies-list/movies-list.component';
+import { Top250MoviesComponent } from './components/top250-movies/top250-movies.component';
 
 
 
 
 @NgModule({
   declarations: [
-    MoviesListComponent,
+    Top250MoviesComponent,
   
   ],
   imports: [
